@@ -12,8 +12,10 @@
     {{ if and (.Site.Params.Info.adsense) (.Params.adsenseTop) }}
     {{ partial "adsense" . }}
     {{ end }}
+	<script src="//ap.lijit.com/www/delivery/fpi.js?z=627983&width=468&height=60"></script> 
     <div class="content">
       {{ .Content }}
+	<div style="align: right"><script src="//ap.lijit.com/www/delivery/fpi.js?z=627982&width=160&height=600"></script></div>
       <section>
 	  <script>talkyardServerUrl='{{ .Site.Params.talkyardServerUrl }}';</script>
 <script async defer src="{{ .Site.Params.talkyardScriptUrl }}"></script>
