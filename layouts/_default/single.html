@@ -33,6 +33,17 @@
     {{ partial "adsense" . }}
     {{ end}}
   </div>
+<script type="text/javascript">
+    var vglnk = {key: 'df95ebb8d9148ab234d82651fd730764'};
+    (function(d, t) {
+        var s = d.createElement(t);
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = '//cdn.viglink.com/api/vglnk.js';
+        var r = d.getElementsByTagName(t)[0];
+            r.parentNode.insertBefore(s, r);
+    }(document, 'script'));
+</script>
 </section>
 {{ if (and (.Site.Params.Info.codeCopy) (findRE "<pre" .Content 1)) }}
     <script src="/js/copycode.js"></script>
